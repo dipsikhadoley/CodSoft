@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: #f0f0f0;
+      }
+      .container {
+        background: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+      }
+      .content {
+        text-align: center;
+      }
+      input {
+        margin-bottom: 20px;
+        color: #333;
+        width: 100%;
+        padding: 10px;
+        font-size: 24px;
+        text-align: right;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+      }
+      .btn-cal {
+        width: 100%;
+      }
+      .btn-main {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .btn-main button {
+        flex: 1;
+        margin: 5px;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        background: #4caf50;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      .btn-main button:hover {
+        background: #45a049;
+      }
+      .btn-main button:active {
+        background: #3e8e41;
+      }
+      .operator {
+        background: #ff9800;
+      }
+      .equal {
+        background: #2196f3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <input type="text" placeholder="0" id="inputBox" readonly />
+        <div class="btn">
+          <div class="btn-cal">
+            <div class="btn-main">
+              <button>AC</button>
+              <button>Del</button>
+              <button>%</button>
+              <button class="operator">/</button>
+            </div>
+            <div class="btn-main">
+              <button>1</button>
+              <button>2</button>
+              <button>3</button>
+              <button class="operator">*</button>
+            </div>
+            <div class="btn-main">
+              <button>4</button>
+              <button>5</button>
+              <button>6</button>
+              <button class="operator">+</button>
+            </div>
+            <div class="btn-main">
+              <button>7</button>
+              <button>8</button>
+              <button>9</button>
+              <button class="operator">-</button>
+            </div>
+            <div class="btn-main">
+              <button>0</button>
+              <button>00</button>
+              <button>.</button>
+              <button class="equal">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+</html>

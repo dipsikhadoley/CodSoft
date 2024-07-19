@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Dipsikha</a>
+      <nav>
+        <div class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Home -->
+    <section id="home">
+      <div class="hom">
+        <h2>Hi 👋 Everyone</h2>
+        <h1>I'm Dipsikha Doley</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+          explicabo, fugit maxime facilis illum reprehenderit sint suscipit, ea
+          voluptas placeat labore distinctio obcaecati sapiente eos culpa
+          veritatis nihil tempore excepturi.
+        </p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="abt-content">
+        <h1>About Me</h1>
+        <p>
+          As a Software Engineer with a passion for technology and innovation, I
+          have spent the past four years honing my skills in software
+          development and problem-solving. I hold a Bachelor’s degree in
+          Production and Industrial Engineering and have worked on various
+          projects, ranging from mobile applications to web development.
+          Throughout my career, I have gained expertise in multiple programming
+          languages, such as C++, Python, and JavaScript, and have experience in
+          full-stack development. I thrive in dynamic and collaborative
+          environments, working with cross-functional teams to deliver
+          high-quality software solutions. One project I’m particularly proud of
+          is the development of a cloud-based application that streamlined data
+          management for a healthcare client, reducing processing time by 30%.
+        </p>
+        <img class="abt-img" src="images/profile.webp" alt="Dipsikha Doley" />
+      </div>
+      <div class="btn">
+        <a class="blue" href="#">Hire Me</a>
+        <a
+          class="yellow"
+          href="#resume"
+          download="file:///C:/Users/dipsikha%20doley/Desktop/Dipsikha_cv%20(1).pdf"
+          >Download CV</a
+        >
+      </div>
+      <div class="abt-logo">
+        <a href="https://github.com"
+          ><img style="height: 30px" src="images/github.webp" alt="GitHub"
+        /></a>
+        <a href="https://linkedin.com"
+          ><img style="height: 33px" src="images/linkedin.png" alt="LinkedIn"
+        /></a>
+        <a href="mailto:your-email@example.com"
+          ><img style="height: 33px" src="images/email.jpg" alt="Gmail"
+        /></a>
+        <a href="https://facebook.com"
+          ><img style="height: 30px" src="images/Facebook.png" alt="Facebook"
+        /></a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="skl">
+        <div class="skl-heading">
+          <h1>My Skills</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequuntur voluptate expedita corrupti maxime aliquid dignissimos?
+          </p>
+        </div>
+        <div class="skl-text">
+          <div class="skl-bar">
+            <h2>Technical Skills</h2>
+            <label for="html-skill">HTML:</label>
+            <progress id="html-skill" value="40" max="80">60%</progress>
+
+            <label for="css-skill">CSS:</label>
+            <progress id="css-skill" value="75" max="100">75%</progress>
+
+            <label for="js-skill">JavaScript:</label>
+            <progress id="js-skill" value="70" max="100">70%</progress>
+
+            <label for="react-skill">React:</label>
+            <progress id="react-skill" value="65" max="100">65%</progress>
+
+            <label for="python-skill">Python:</label>
+            <progress id="python-skill" value="85" max="100">85%</progress>
+          </div>
+
+          <div>
+            <h2>Professional Skills</h2>
+            <div class="progress-bar">
+              <progress value="75" min="0" max="100">75%</progress>
+            </div>
+            <p>Communication</p>
+
+            <div class="progress-bar">
+              <progress value="75" min="0" max="100">75%</progress>
+            </div>
+            <p>Problem-solving</p>
+
+            <div class="progress-bar">
+              <progress value="75" min="0" max="100">75%</progress>
+            </div>
+            <p>Team-work</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project">
+      <div class="proj">
+        <div class="proj-img">
+          <img src="images/P1.png" alt="Project 1" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dolore
+            dignissimos dolorum nisi ratione!
+          </p>
+        </div>
+        <div class="proj-img">
+          <img src="images/P2.png" alt="Project 2" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            esse obcaecati libero molestias cum doloribus.
+          </p>
+        </div>
+        <div class="proj-img">
+          <img src="images/P3.png" alt="Project 3" />
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo,
+          odit dolor officiis sequi accusantium corrupti.
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="cont">
+        <h1>Contact Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum alias
+          doloribus ab similique dignissimos voluptate!
+        </p>
+      </div>
+      <div class="cont-form">
+        <form action="">
+          <input type="text" placeholder="Enter your name" required />
+          <input type="email" placeholder="Enter your email" required />
+          <input type="text" placeholder="Enter your subject" required />
+          <textarea placeholder="Enter your message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-hm">
+        <h1>Portfolio</h1>
+        <p>&copy; reserved all copy right</p>
+      </div>
+      <div class="footer-text">
+        <div class="footer-di">
+          <h1>About</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="footer-di">
+          <h1>Blog</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="footer-di">
+          <h1>Contact</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
